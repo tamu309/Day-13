@@ -1,0 +1,100 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+section{
+display: flex;
+background-color:dimgray;
+height: 90vh;
+width:  90%;
+padding: 20px;
+gap: 20px;
+
+}
+
+#child1{
+height: 90vh;
+width:  90%;
+background-color: aqua;
+display: flex;
+align-items: end;
+
+}
+h1{
+    font-size: 40px;
+}
+
+#child2{
+    height:  90vh;
+    width:   90%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     gap:20px ;
+}
+
+#grandchild1,#grandchild2,#grandchild3
+{
+    height: 33%;
+    width: 100%;
+
+}
+
+#grandchild1
+{
+    background-color: greenyellow;
+}
+#grandchild2
+{
+    background-color: goldenrod;
+    display: flex;
+    gap: 20px;
+   
+}
+
+#grandchild3
+{
+    background-color: tomato;
+}
+
+#grandchild2son1,#grandchild2son2
+{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#grandchild2son1
+{
+    background-color: black;
+}
+#grandchild2son2
+{
+    background-color: blue;
+}
+
+
+
+button{
+    margin: 100px;
+    padding:15px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    
+}
+
+button:hover
+{
+    background-color: green;
+}
+
+
+
